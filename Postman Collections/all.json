@@ -15,11 +15,15 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "?test=test",
+          "raw": "?test=test&test2=test2",
           "query": [
             {
               "key": "test",
-              "value": "test",
+              "value": "test"
+            },
+            {
+              "key": "test2",
+              "value": "test2",
               "type": "text"
             }
           ]
