@@ -7,14 +7,23 @@
   "item": [
     {
       "name": "New Request",
-      "_postman_id": "4d149d9f-f483-4470-b4a8-cd434dc20ff8",
+      "id": "4d149d9f-f483-4470-b4a8-cd434dc20ff8",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
       "request": {
         "method": "GET",
         "header": [],
-        "url": null
+        "url": {
+          "raw": "?test=test",
+          "query": [
+            {
+              "key": "test",
+              "value": "test",
+              "type": "text"
+            }
+          ]
+        }
       },
       "response": []
     }
