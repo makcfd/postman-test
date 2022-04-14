@@ -15,16 +15,37 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "?test=test&test2=test2",
+          "raw": "https://apim.expedia.com/feed/downloadUrl?locale=cs-CZ&type=Summary&Key='ea84181b-1961-4eaa-b8b5-23e50433b637'&Accept=application/json&Authorization=Basic a2V5PVtrZXldOnBhc3N3b3JkPVtwYXNzd29yZF0=",
+          "protocol": "https",
+          "host": [
+            "apim",
+            "expedia",
+            "com"
+          ],
+          "path": [
+            "feed",
+            "downloadUrl"
+          ],
           "query": [
             {
-              "key": "test",
-              "value": "test"
+              "key": "locale",
+              "value": "cs-CZ"
             },
             {
-              "key": "test2",
-              "value": "test2",
-              "type": "text"
+              "key": "type",
+              "value": "Summary"
+            },
+            {
+              "key": "Key",
+              "value": "'ea84181b-1961-4eaa-b8b5-23e50433b637'"
+            },
+            {
+              "key": "Accept",
+              "value": "application/json"
+            },
+            {
+              "key": "Authorization",
+              "value": "Basic a2V5PVtrZXldOnBhc3N3b3JkPVtwYXNzd29yZF0="
             }
           ]
         }
