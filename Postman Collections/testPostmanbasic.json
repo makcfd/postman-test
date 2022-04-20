@@ -1,13 +1,13 @@
 {
   "info": {
-    "_postman_id": "25a19a48-b8c8-4506-8f99-458e5914cb9d",
+    "_postman_id": "4f3281df-9f8b-4652-a3f4-318f5505cc07",
     "name": "Test_Postmanbasic",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
     {
       "name": "New Request",
-      "id": "fd5d6ceb-1ac5-494e-8859-840ffa827478",
+      "_postman_id": "fa9f7c06-5917-4536-9ada-45dcd2f4fe1e",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -15,7 +15,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://api.getpostman.com/collections?apikey=PMAK-62581811b7e1e227186b9ebc-665568afea9d1e9fb49ddcba218c1f0370\n&test1",
+          "raw": "https://api.getpostman.com/collections?apikey=PMAK-62581811b7e1e227186b9ebc-665568afea9d1e9fb49ddcba218c1f0370\n&test1&test2",
           "protocol": "https",
           "host": [
             "api",
@@ -32,6 +32,10 @@
             },
             {
               "key": "test1",
+              "value": null
+            },
+            {
+              "key": "test2",
               "value": null,
               "type": "text"
             }
